@@ -1,64 +1,12 @@
-# Product
+# การตั้งชื่อ
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads][ico-downloads]][link-downloads]
-[![Build Status][ico-travis]][link-travis]
-[![StyleCI][ico-styleci]][link-styleci]
+# การตั้งชื่อทั่วไป
+- เวลาจะตั้งชื่ออะไรก็แล้ว ต้องตั้งให้มันสื่อความหมาย อ่านแล้วเข้าใจว่ามันมีไว้เพื่ออะไร
+- ชื่อต้อง อ่านออกเสียงได้ ถ้ามันออกเสียงไม่ได้เวลาจะบอกคนอื่นว่ามันผิดที่ไหน คุณจะบอกเขาว่ายังไง?
+- หลีกเลี่ยงคำย่อ เพราะทุกคนย่อคำไม่เหมือนกัน เช่น Student คุณจะย่อว่าอะไร (std? โรคติดต่อทางเพศงั้นเหรอ?)
+- ชื่อควรตั้งชื่อตามพฤติกรรม เช่น ชื่อคลาสควรเป็นคำนาม, ชื่อ method ควรขึ้นด้วยคำกิริยา
+- อย่าตั้งชื่อยาว เพราะมันจะเสียเวลาทำความเข้าใจ
+- อย่าตั้งชื่อเป็นนิเสธ เพราะคนอ่านจะ งง (แค่คำว่านิเสธก็ งง แล้ว)
+- อย่างตั้งชื่อกำกวม เพราะมันจะสับสนว่าตัวไหนเป็นตัวไหนกันแน่
 
-This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
-
-## Installation
-
-Via Composer
-
-``` bash
-$ composer require nawatty/product
-$ php artisan vendor:publish --provider="Spatie\MediaLibrary\MediaLibraryServiceProvider" --tag="migrations"
-$ php artisan migrate
-```
-
-##### Publishing the config file is optional:
-``` bash
-php artisan vendor:publish --provider="Spatie\MediaLibrary\MediaLibraryServiceProvider" --tag="config"
-```
-
-## Usage
-
-## Change log
-
-Please see the [changelog](changelog.md) for more information on what has changed recently.
-
-## Testing
-
-``` bash
-$ composer test
-```
-
-## Contributing
-
-Please see [contributing.md](contributing.md) for details and a todolist.
-
-## Security
-
-If you discover any security related issues, please email nawatty1984@gmail.com instead of using the issue tracker.
-
-## Credits
-
-- [Nawatt Y.][link-author]
-- [All Contributors][link-contributors]
-
-## License
-
-proprietary. Please see the [license file](license.md) for more information.
-
-[ico-version]: https://img.shields.io/packagist/v/nawatty/product.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/nawatty/product.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/nawatty/product/master.svg?style=flat-square
-[ico-styleci]: https://styleci.io/repos/12345678/shield
-
-[link-packagist]: https://packagist.org/packages/nawatty/product
-[link-downloads]: https://packagist.org/packages/nawatty/product
-[link-travis]: https://travis-ci.org/nawatty/product
-[link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/nawatty
-[link-contributors]: ../../contributors
+## การตั้งชื่อ Methods & Functions
